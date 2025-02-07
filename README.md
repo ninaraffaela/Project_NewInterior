@@ -9,7 +9,7 @@
 5. html
     - nav
     - hero
-    - portfolio
+    - portfolio -almost
     - services
     - blog
     - parallax
@@ -24,6 +24,10 @@
         - burgermenu
         - hero img
     - portfolio gallery
+        - text aligns
+        - gallery in grid
+        - hover over images -almost (color missing)
+        - hover over images over button
     - services
     - blog
     - parallax
