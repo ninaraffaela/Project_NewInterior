@@ -1,48 +1,244 @@
+@font-face {
+  font-family: "Nixie";
+  src: url("../fonts/Nixie_One/NixieOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AlegreyaSans";
+  src: url("../fonts/Alegreya_Sans/AlegreyaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "AlegreyaSC";
+  src: url("../fonts/Alegreya_SC/AlegreyaSC-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+/* ! p, a, */
+p {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #6A6A6A;
+}
+
+a {
+  font-family: "Roboto", Helvetica;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #4DA7CA;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ! Headlines */
+/* nav left top */
+h1 {
+  color: white;
+  font-family: "AlegreyaSC";
+  font-weight: 500;
+  font-size: 3.6rem;
+}
+
+/* hero */
+h2 {
+  color: white;
+  font-family: "Nixie", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 5.6rem;
+}
+
+/* regular  */
+h3 {
+  color: #3A4F52;
+  font-family: "AlegreyaSans", Arial, Helvetica, sans-serif;
+  font-size: 3.6rem;
+
+}
+
+/* under service/blog */
+h4 {
+  color: #3A4F52;
+  font-family: "AlegreyaSans", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+/* ! HERO + nav */
+
+header {
+  background: url(../img/header.jpg) no-repeat center/cover;
+  height: 100vh;
+}
+
+/* ! MAIN  */
+
+main section {
+  padding: 60px 135px;
+}
 
 
 
 
+
+/* ! Portfolio */
+
+.portfolio {
+  background-color: thistle;
+  padding: 60px 135px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery img {
+  width: 360px;
+  height: 215px;
+  object-fit: contain;
+
+  display: grid;
+  gap: 30px;
+}
 
 /* ! Test the IMG Hover button */
 /* # green color missing.  */
 /* # button hover missing */
 
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-    background-color: #3a4f52;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #eaeaea;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+.portfolio .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  background-color: teal;
+  /* transform: scale(2); */
+  /* # transform aber innerhalb des rahmens. how? */
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #eaeaea;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/* ! SERVICES */
+
+.services {
+  background: url(../img/services.png) no-repeat center/ cover;
+}
+
+
+/* ! BLOG */
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blog img {
+  width: 360px;
+  height: 230px;
+  object-fit:fill;
+}
+
+.blog img:nth-of-type(2) {
+  height: 270px;
+}
+
+.blog img:nth-of-type(3) {
+  height: 360px;
+}
+
+.blog .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+/* ! PARALLAX */
+
+
+/* ! TESTIMONIALS */
+
+
+
+/* ! CONTACT */
+
+.contact  {
+  background: url(../img/div#contact.png) no-repeat center contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact form {
+  display: grid;
+  gap: 30px;
+}
+
+/* ! Footer */
+
+footer {
+  background-color: #2B3E51;
+  padding-left: 140px;
+  display: flex;
+  align-items: center;
+  height: 140px;
+}
+
+footer p {
+  color: white;
+}

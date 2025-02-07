@@ -11,13 +11,14 @@
     - hero
     - portfolio -almost
     - services
-    - blog
+    - blog CHECK
     - parallax
-    - testimonials
+    - testimonials 
+    - contact KINDA
     - footer CHECK
 
 6. css desktop
-    - fontfaces 1 2 3
+    - fontfaces 1 2 3 CHECK
     - btn white
     - btn transparent
     - header
@@ -27,22 +28,29 @@
         - text aligns
         - gallery in grid
         - hover over images -almost (color missing)
-        - hover over images over button
+        - hover over images over button 
     - services
     - blog
     - parallax
     - testimonials
     - contact form
-    - footer
+        - form btn "required"
+        - different textinput
+    - footer CHECK
     - hover
         - btn white
         - btn transparent
-        - portfolio gallery
-        - a tags read more
-        - form btn "required"
+        - portfolio gallery KINDA....
+        - a tags read more CHECK
+        
 
 7.  css tablet
 8. css mobile# Project_NewInterior
 
 
 
+## research
+
+- how to hover over the img, img zooms in, but size stays
+- how to hover over the img, opacity goes down, but make it a color
+- how to hover im hover (gallery portfolio. first img hover, then button hover)
