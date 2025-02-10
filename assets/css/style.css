@@ -26,7 +26,6 @@
 
 html {
   font-size: 62.5%;
-
 }
 
 img {
@@ -89,6 +88,7 @@ h4 {
 header {
   background: url(../img/header.png) no-repeat center/cover;
   height: 100vh;
+  /* position: relative; */
   
 }
 
@@ -97,6 +97,7 @@ header {
   height: 5px;
   background-color: white;
   margin: 5px 0;
+  cursor: pointer;
 
 }
 
@@ -109,9 +110,12 @@ header nav {
 }
 
 .hero {
-  margin-top: 37vh;
+  margin-top: 30vh;
   text-align: center;
   text-transform: uppercase;
+  /* position: absolute;
+  top: 42%;
+  left: 35%; */
 }
 
 .hero p {
@@ -136,7 +140,7 @@ main section {
 
 .portfolio {
   background-color: thistle;
-  padding: 60px 135px;
+  /* padding: 60px 135px; */
 
   display: flex;
   flex-direction: column;
@@ -151,7 +155,7 @@ main section {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: 60vw;
+  width: 80vw;
 }
 
 .gallery img {
@@ -193,8 +197,10 @@ main section {
 .container:hover .image {
   opacity: 0.3;
   background-color: teal;
-  /* transform: scale(2); */
+ 
   /* # transform aber innerhalb des rahmens. how? */
+   /* transform: scale(1.3);
+   overflow: hidden; */
 }
 
 .container:hover .middle {
@@ -232,6 +238,7 @@ main section {
   margin-bottom: 20px;
   
 }
+
 .service-text {
   text-align: center;
   margin-bottom: 20px;

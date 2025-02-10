@@ -7,10 +7,10 @@
 3. icons CHECK
 4. fontstyles, sizes weights CHECK
 5. html
-    - nav
-    - hero
+    - nav CHECK
+    - hero CHECK
     - portfolio -almost
-    - services
+    - services CHECK
     - blog CHECK
     - parallax
     - testimonials 
@@ -21,15 +21,15 @@
     - fontfaces 1 2 3 CHECK
     - btn white
     - btn transparent
-    - header
+    - header CHECK
         - burgermenu
         - hero img
     - portfolio gallery
-        - text aligns
+        - text aligns 
         - gallery in grid
         - hover over images -almost (color missing)
         - hover over images over button 
-    - services
+    - services CHECK
     - blog
     - parallax
     - testimonials
@@ -52,5 +52,6 @@
 ## research
 
 - how to hover over the img, img zooms in, but size stays
+(overflow: hidden?)
 - how to hover over the img, opacity goes down, but make it a color
 - how to hover im hover (gallery portfolio. first img hover, then button hover)
